@@ -1,0 +1,62 @@
+{
+	"name": "leet-html",
+	"displayName": "leet-html",
+	"description": "Syntax highlighting and IntelliSense for html inside of JavaScript and TypeScript literal template strings",
+	"version": "1.1.1",
+	"publisher": "EldarGerfanov",
+	"icon": "docs/logo.png",
+	"galleryBanner": {
+		"color": "#fcfcfc",
+		"theme": "light"
+	},
+	"repository": {
+		"url": "https://github.com/swindex/leet-html"
+	},
+	"bugs": {
+		"url": ""
+	},
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"javascript",
+		"typescript",
+		"html",
+		"literal",
+		"template"
+	],
+	"contributes": {
+		"grammars": [
+			{
+				"injectTo": [
+					"source.html",
+					"source.js",
+					"source.js.jsx",
+					"source.jsx",
+					"source.ts",
+					"source.tsx",
+					"text.html"
+				],
+				"scopeName": "inline.leet-html",
+				"path": "./syntaxes/leet-html.json",
+				"embeddedLanguages": {
+					"meta.embedded.block.html": "html"
+				}
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e7b98165-0607-41d7-9229-6b71ed5f8fb0",
+		"publisherId": "2813c87c-e487-4829-856e-44d2151c27b6",
+		"publisherDisplayName": "Eldar Gerfanov",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1703220265238,
+		"pinned": false,
+		"preRelease": false
+	}
+}
